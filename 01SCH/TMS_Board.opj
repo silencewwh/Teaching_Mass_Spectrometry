@@ -1,0 +1,112 @@
+(ExpressProject "TMS_Board"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[11/11/24]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "..\02pcb")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\tms_board.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    ("Allegro Netlist Output Board File" "..\02pcb\tms_board.brd"))
+  (Folder "Layout"
+    (File "..\02pcb\tms_board.brd"
+      (Type "Board File")
+      (OutputBoard "..\02pcb\tms_board.brd")
+      (NetListPath "..\02pcb")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File "..\02pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "..\02pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "..\02pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"
+    (File "..\02pcb\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "c:\users\wwh\desktop\teaching_mass_spectrometry\02pcb\netlist.log"))
+    (File "..\02pcb\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "c:\users\wwh\desktop\teaching_mass_spectrometry\02pcb\netrev.lst"))
+    (File "..\02pcb\eco.txt"
+      (Type "Log File")
+      (LogFile "c:\users\wwh\desktop\teaching_mass_spectrometry\02pcb\eco.txt")))
+  (PartMRUSelector
+    (TPMIC5205-3.3YM5
+      (FullPartName "TPMIC5205-3.3YM5_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\11129.OLB")
+      (DeviceIndex "0"))
+    (LM2596S-5.0
+      (FullPartName "LM2596S-5.0_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\24135.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LM78M05CDTX
+      (FullPartName "LM78M05CDTX_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\2032.OLB")
+      (DeviceIndex "0"))
+    (16M10PPM9PF-SMD3225
+      (FullPartName "16M10PPM9PF-SMD3225_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\26603.OLB")
+      (DeviceIndex "0"))
+    (SN74LVC1G125DBVR
+      (FullPartName "SN74LVC1G125DBVR_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\5419.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 739"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 761")
+        (Scroll "0 0")
+        (Zoom "168")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "WWH")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Software\Cadence\SPB_17.4\tools\capture\library"))

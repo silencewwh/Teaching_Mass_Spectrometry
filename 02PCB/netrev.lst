@@ -1,0 +1,99 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : tms_board.brd                                 )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Mon Nov 11 16:35:22 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'c:\users\wwh\desktop\teaching_mass_spectrometry\02pcb'
+Design Directory:            'c:/users/wwh/desktop/teaching_mass_spectrometry/02pcb'
+Old design name:             'c:/users/wwh/desktop/teaching_mass_spectrometry/02pcb/tms_board.brd'
+New design name:             'c:/users/wwh/desktop/teaching_mass_spectrometry/02pcb/tms_board.brd'
+
+CmdLine: netrev.exe -y 1 -n -i c:\users\wwh\desktop\teaching_mass_spectrometry\02pcb c:/users/wwh/desktop/teaching_mass_spectrometry/02pcb/tms_board.brd c:/users/wwh/desktop/teaching_mass_spectrometry/02pcb/tms_board.brd
+
+------ Preparing to read pst files ------
+
+Starting to read c:/users/wwh/desktop/teaching_mass_spectrometry/02pcb/pstchip.dat 
+   Finished reading c:/users/wwh/desktop/teaching_mass_spectrometry/02pcb/pstchip.dat (00:00:00.01)
+Starting to read c:/users/wwh/desktop/teaching_mass_spectrometry/02pcb/pstxprt.dat 
+   Finished reading c:/users/wwh/desktop/teaching_mass_spectrometry/02pcb/pstxprt.dat (00:00:00.00)
+Starting to read c:/users/wwh/desktop/teaching_mass_spectrometry/02pcb/pstxnet.dat 
+   Finished reading c:/users/wwh/desktop/teaching_mass_spectrometry/02pcb/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOT-23-5_L3_0-W1_7-P0_95-LS2_8-BL' used by RefDes U1 for device 'SN74LVC1G125DBVR_SOT-23-5_L3_0-W1_7-P0_95-LS2_8-BL_SN74LVC1G125DBVR' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correc
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/software/cadence/spb_17.4/share/local/pcb/modules 
+
+PSMPATH =  C:/Users/WWH/Desktop/Footprintlib 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/software/cadence/spb_17.4/share/local/pcb/symbols 
+           c:/software/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           c:/software/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+
+PADPATH =  C:/Users/WWH/Desktop/Footprintlib 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/software/cadence/spb_17.4/share/local/pcb/padstacks 
+           c:/software/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           c:/software/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Nov 11 16:35:22 2024
+   DESIGN NAME : 'TMS_BOARD'
+   PACKAGING ON Nov  3 2023 23:54:18
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  1 warnings detected
+
+cpu time      0:00:40
+elapsed time  0:00:00
+

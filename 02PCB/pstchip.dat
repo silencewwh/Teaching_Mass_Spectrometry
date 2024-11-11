@@ -1,0 +1,27 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.4.0 d001Nov-11-2024 at 16:35:22}
+primitive 'SN74LVC1G125DBVR_SOT-23-5_L3_0-W1_7-P0_95-LS2_8-BL_SN74LVC1G125DBVR';
+  pin
+    'OE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'Y':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SN74LVC1G125DBVR';
+    JEDEC_TYPE='SOT-23-5_L3_0-W1_7-P0_95-LS2_8-BL';
+    VALUE='SN74LVC1G125DBVR';
+  end_body;
+end_primitive;
+END.

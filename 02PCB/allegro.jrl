@@ -1,41 +1,13 @@
 \t (00:00:01) allegro 17.4 S039 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Mon Nov 11 16:37:26 2024
-\t (00:00:01)         Host=DESKTOP-SVMQVNV User=WWH Pid=9112 CPUs=12
+\t (00:00:01)     Journal start - Mon Dec 23 10:06:17 2024
+\t (00:00:01)         Host=DESKTOP-SVMQVNV User=WWH Pid=15744 CPUs=12
 \t (00:00:01) CmdLine= C:\Software\Cadence\SPB_17.4\tools\bin\allegro.exe
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
-   (00:00:01) Loading skillExt.cxt 
+   (00:00:02) Loading skillExt.cxt 
 \t (00:00:02) Starting new design...
-\i (00:00:02) trapsize 116667
-\i (00:00:02) generaledit 
-\i (00:00:04) place manual 
-\i (00:00:04) setwindow form.plc_manual
-\i (00:00:04) FORM plc_manual tree  'Components by refdes' 
-\i (00:00:05) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
-\i (00:00:06) FORM plc_manual cancel  
-\i (00:00:06) setwindow pcb
-\i (00:00:06) generaledit 
-\i (00:00:08) trapsize 647
-\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
-\i (00:00:08) opencd C:/Users/WWH/Desktop/teaching_mass_spectrometry/02PCB/tms_board.brd 
-\e (00:00:08) Do you want to save the changes you made to unnamed.brd?
-\i (00:00:10) fillin no 
-\t (00:00:10) Opening existing design...
-\i (00:00:10) trapsize 875
-\t (00:00:10) > Sending response DoneOpenBoard
-\d (00:00:10) Design opened: C:/Users/WWH/Desktop/teaching_mass_spectrometry/02PCB/tms_board.brd
-\i (00:00:10) generaledit 
-\i (00:00:12) place manual 
-\i (00:00:12) setwindow form.plc_manual
-\i (00:00:12) FORM plc_manual tree  'Components by refdes' 
-\i (00:00:13) FORM plc_manual tree  U1 'Components by refdes' 
-\i (00:00:13) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
-\e (00:00:13) Cannot load symbol 'SOT-23-5_L3_0-W1_7-P0_95-LS2_8-BL'
-\i (00:00:14) FORM plc_manual tree 'MULTISEL NO' U1 'Components by refdes' 
-\i (00:00:17) FORM plc_manual cancel  
-\i (00:00:17) setwindow pcb
-\i (00:00:17) generaledit 
-\i (00:00:26) exit 
-\e (00:00:26) Do you want to save the changes you made to tms_board.brd?
-\i (00:00:28) fillin yes 
-\t (00:00:28)     Journal end - Mon Nov 11 16:37:53 2024
+\i (00:00:03) trapsize 116667
+\i (00:00:03) generaledit 
+\i (00:00:25) new 
+\i (00:00:41) newdrawfillin "SnakePCB.brd" "Board"
+\t (00:00:41)     Journal end - Mon Dec 23 10:06:57 2024

@@ -1,6 +1,6 @@
 (ExpressProject "TMS_Board"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[11/11/24]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[12/30/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -109,21 +109,44 @@
       (Type "Log File")
       (LogFile "c:\users\wwh\desktop\teaching_mass_spectrometry\02pcb\eco.txt")))
   (PartMRUSelector
+    (STM32F103C8T6TR
+      (FullPartName "STM32F103C8T6TR_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\13262.OLB")
+      (DeviceIndex "0"))
+    (MCP4728-E/UN
+      (FullPartName "MCP4728-E/UN_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\19367.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (VCC_BAR
       (LibraryName
          "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (OFFPAGELEFT-R
+    (GND
       (LibraryName
          "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    ("DIODE SCHOTTKY"
-      (FullPartName "DIODE SCHOTTKY.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (MAX5402EUA+T
+      (FullPartName "MAX5402EUA+T_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\7070.OLB")
       (DeviceIndex "0"))
-    (DIODE
-      (FullPartName "DIODE.Normal")
+    (CH32V303CBT6
+      (FullPartName "CH32V303CBT6_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\29277.OLB")
+      (DeviceIndex "0"))
+    (OPA551UA/2K5
+      (FullPartName "OPA551UA/2K5_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\4488.OLB")
+      (DeviceIndex "0"))
+    (ESP32-PICO-D4
+      (FullPartName "ESP32-PICO-D4_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\30430.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
       (LibraryName
          "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
@@ -132,83 +155,85 @@
       (LibraryName
          "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    ("CAP NP"
-      (FullPartName "CAP NP.Normal")
+    (RVT1H680M0607
+      (FullPartName "RVT1H680M0607_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\23422.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
       (LibraryName
          "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (GND
+    (FXL0530-4R7-M
+      (FullPartName "FXL0530-4R7-M_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\23819.OLB")
+      (DeviceIndex "0"))
+    (URA2424LD-30WR3_C5369832
+      (FullPartName "URA2424LD-30WR3_C5369832_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\15224.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
       (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (AMS1117-3.3VSOT-89
-      (FullPartName "AMS1117-3.3VSOT-89_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\2244.OLB")
+    (GC2M1000170D
+      (FullPartName "GC2M1000170D_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\3407.OLB")
       (DeviceIndex "0"))
-    (MC78M05CDTT5G
-      (FullPartName "MC78M05CDTT5G_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\12407.OLB")
+    (ESP32-C3-MINI-1U-H4
+      (FullPartName "ESP32-C3-MINI-1U-H4_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\16686.OLB")
       (DeviceIndex "0"))
-    (MC78M15ABDTG
-      (FullPartName "MC78M15ABDTG_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\17342.OLB")
+    (74HC14D/C4118
+      (FullPartName "74HC14D/C4118_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\8529.OLB")
       (DeviceIndex "0"))
-    (RVT220UF35V67RV0024
-      (FullPartName "RVT220UF35V67RV0024_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\22360.OLB")
+    (ESP32-C3
+      (FullPartName "ESP32-C3.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\FOOTPRINTLIB\ORCADCAPTUREOLB.OLB")
       (DeviceIndex "0"))
-    (SS34-MS
-      (FullPartName "SS34-MS_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\6781.OLB")
+    ("CHOKE CM"
+      (FullPartName "CHOKE CM.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (SS34_C2923966
-      (FullPartName "SS34_C2923966_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\23803.OLB")
+    (PSCLAQ0905-250N
+      (FullPartName "PSCLAQ0905-250N_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\32297.OLB")
       (DeviceIndex "0"))
-    (GVM1V681M1010
-      (FullPartName "GVM1V681M1010_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\1135.OLB")
+    (FNR6045S103KT
+      (FullPartName "FNR6045S103KT_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\4568.OLB")
       (DeviceIndex "0"))
-    (TPMIC5205-3.3YM5
-      (FullPartName "TPMIC5205-3.3YM5_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\11129.OLB")
+    (QA243HCD2-1803R3
+      (FullPartName "QA243HCD2-1803R3_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\17804.OLB")
       (DeviceIndex "0"))
-    (LM2596S-5.0
-      (FullPartName "LM2596S-5.0_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\24135.OLB")
-      (DeviceIndex "0"))
-    (LM78M05CDTX
-      (FullPartName "LM78M05CDTX_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\2032.OLB")
-      (DeviceIndex "0"))
-    (16M10PPM9PF-SMD3225
-      (FullPartName "16M10PPM9PF-SMD3225_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\26603.OLB")
-      (DeviceIndex "0"))
-    (SN74LVC1G125DBVR
-      (FullPartName "SN74LVC1G125DBVR_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\5419.OLB")
+    (2ED3144MC12L
+      (FullPartName "2ED3144MC12L.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\FOOTPRINTLIB\2ED3144MC12L.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\tms_board.dsn")
       (Path "Design Resources" ".\tms_board.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\tms_board.dsn" "Design Cache")
       (Path "Layout")
       (Path "Outputs")
-      (Path "Logs")
-      (Select "Design Resources"))
+      (Path "Logs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 739"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 241 0 739"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1674 28 761")
-        (Scroll "0 2")
+        (Placement "44 0 1 -1 -1 5 28 5 1633 28 761")
+        (Scroll "621 1841")
         (Zoom "168")
         (Occurrence "/"))
       (Path

@@ -1,25 +1,19 @@
-Date and Time : 11/13/24 18:07:42
+Date and Time : 01/14/25 14:31:15
 
 --------------------------------------------------
 Checking Schematic: SCHEMATIC1
 --------------------------------------------------
 Checking Electrical Rules 
-WARNING(ORCAP-1831): Unconnected pin U5,INA 
-                    SCHEMATIC1, PAGE1  (210.82, 256.54) 
-WARNING(ORCAP-1831): Unconnected pin U5,INB 
-                    SCHEMATIC1, PAGE1  (210.82, 261.62) 
-WARNING(ORCAP-1831): Unconnected pin U5,EN 
-                    SCHEMATIC1, PAGE1  (210.82, 276.86) 
-WARNING(ORCAP-1831): Unconnected pin U6,INA 
-                    SCHEMATIC1, PAGE1  (210.82, 337.82) 
-WARNING(ORCAP-1831): Unconnected pin U6,INB 
-                    SCHEMATIC1, PAGE1  (210.82, 342.90) 
-WARNING(ORCAP-1831): Unconnected pin U6,EN 
-                    SCHEMATIC1, PAGE1  (210.82, 358.14) 
 
 Checking For Single Node Nets
-WARNING(ORCAP-1600): Net has fewer than two connections 8KHz 
-                    SCHEMATIC1, PAGE1  (35.56, 292.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections DAC_3 
+                    SCHEMATIC1, MCU  (81.28, 236.22) 
+WARNING(ORCAP-1600): Net has fewer than two connections DAC_4 
+                    SCHEMATIC1, MCU  (81.28, 233.68) 
+WARNING(ORCAP-1600): Net has fewer than two connections +HV1 
+                    SCHEMATIC1, MAIN  (403.86, 106.68) 
+WARNING(ORCAP-1600): Net has fewer than two connections +HV2 
+                    SCHEMATIC1, MAIN  (406.40, 254.00) 
 
 Checking For Unconnected Bus Nets
 

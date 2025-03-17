@@ -1,6 +1,6 @@
 (ExpressProject "TMS_Board"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/20/25]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/28/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -71,8 +71,14 @@
     (DRC_Run_Custom_Rules "FALSE")
     (DRC_Report_File
        "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DRC")
-    (RootChangedForceReNetlist "x"))
-  (Folder "Layout")
+    (RootChangedForceReNetlist "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout"
+    (File "..\02pcb\tms_board.brd"
+      (Type "Board File")
+      (OutputBoard "..\02pcb\tms_board.brd")
+      (NetListPath "..\02pcb")
+      (ActiveBoard "1")))
   (Folder "Outputs"
     (File "..\02pcb\pstxnet.dat"
       (Type "Report")
@@ -107,6 +113,42 @@
       (Type "Log File")
       (LogFile "c:\users\wwh\desktop\teaching_mass_spectrometry\02pcb\eco.txt")))
   (PartMRUSelector
+    (DW-SA121-4F6B
+      (FullPartName "DW-SA121-4F6B.Normal")
+      (LibraryName
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("OPTO ISOLATOR-A"
+      (FullPartName "OPTO ISOLATOR-A.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (EL357C
+      (FullPartName "EL357C_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\9306.OLB")
+      (DeviceIndex "0"))
+    ("PHOTO NPN"
+      (FullPartName "PHOTO NPN.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (EL357C_C17702878
+      (FullPartName "EL357C_C17702878_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\293.OLB")
+      (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
       (LibraryName
@@ -148,14 +190,6 @@
       (FullPartName "TIP137_0.Normal")
       (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\20847.OLB")
       (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (INDUCTOR
       (FullPartName "INDUCTOR.Normal")
       (LibraryName
@@ -192,31 +226,6 @@
     (TEN25-2411
       (FullPartName "TEN25-2411_0.Normal")
       (LibraryName "C:\USERS\WWH\DESKTOP\16150.OLB")
-      (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (LMP7701MFX/NOPB
-      (FullPartName "LMP7701MFX/NOPB_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\357.OLB")
-      (DeviceIndex "0"))
-    ("DIODE SCHOTTKY"
-      (FullPartName "DIODE SCHOTTKY.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (20250208-100443
-      (FullPartName "20250208-100443_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\15964.OLB")
-      (DeviceIndex "0"))
-    (FCX458TA
-      (FullPartName "FCX458TA_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\16818.OLB")
-      (DeviceIndex "0"))
-    (FCX558TA
-      (FullPartName "FCX558TA_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\6760.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -228,27 +237,30 @@
          "EILENS")
       (Path "Design Resources"
          "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"
+         "CTRL")
+      (Path "Design Resources"
+         "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"
          "HVPULSE")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library1.olb")
+      (Path "Design Resources" "Library"
+         "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\library1.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
       (Select "Design Resources"
-         "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"
-         "HVPULSE" "MCU"))
+         "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 291 0 752"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 306 0 752"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1363 28 774")
-        (Scroll "-160 -2")
-        (Zoom "43")
+        (Placement "44 0 1 -1 -1 0 0 5 1568 28 774")
+        (Scroll "-270 -6")
+        (Zoom "60")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
@@ -257,9 +269,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1363 28 774")
-        (Scroll "123 276")
-        (Zoom "120")
+        (Placement "44 0 1 -1 -1 5 28 5 1568 28 774")
+        (Scroll "-270 -6")
+        (Zoom "60")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
@@ -268,8 +280,30 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1363 28 774")
-        (Scroll "0 168")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1568 28 774")
+        (Scroll "-270 -6")
+        (Zoom "60")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
+      (Schematic "EILENS")
+      (Page "DC1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1568 28 774")
+        (Scroll "-270 -6")
+        (Zoom "60")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
+      (Schematic "EILENS")
+      (Page "DC2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1568 28 774")
+        (Scroll "0 0")
         (Zoom "120")
         (Occurrence "/"))
       (Path

@@ -1,6 +1,6 @@
 (ExpressProject "TMS_Board"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/28/25]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[03/20/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -234,10 +234,10 @@
          "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn")
       (Path "Design Resources"
          "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"
-         "EILENS")
+         "CTRL")
       (Path "Design Resources"
          "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"
-         "CTRL")
+         "EILENS")
       (Path "Design Resources"
          "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"
          "HVPULSE")
@@ -248,53 +248,53 @@
       (Path "Outputs")
       (Path "Logs")
       (Select "Design Resources"
-         "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"))
+         "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"
+         "HVPULSE" "MAIN"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 306 0 752"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 273 0 752"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1568 28 774")
-        (Scroll "-270 -6")
-        (Zoom "60")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1601 28 774")
+        (Scroll "0 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
-      (Schematic "EILENS")
+      (Schematic "CTRL")
       (Page "MAIN"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1568 28 774")
-        (Scroll "-270 -6")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1601 28 774")
+        (Scroll "-286 -6")
         (Zoom "60")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
-      (Schematic "EILENS")
-      (Page "POWER"))
+      (Schematic "CTRL")
+      (Page "PrePump"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1568 28 774")
-        (Scroll "-270 -6")
-        (Zoom "60")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1601 28 774")
+        (Scroll "-297 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
-      (Schematic "EILENS")
-      (Page "DC1"))
+      (Schematic "CTRL")
+      (Page "VaccPump"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1568 28 774")
-        (Scroll "-270 -6")
-        (Zoom "60")
-        (Occurrence "/"))
+        (Placement "44 0 1 -1 -1 -1 -1 5 1601 28 774")
+        (Scroll "79 259")
+        (Zoom "100"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
       (Schematic "EILENS")
@@ -302,14 +302,73 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1568 28 774")
-        (Scroll "0 0")
-        (Zoom "120")
-        (Occurrence "/"))
+        (Placement "44 0 1 -1 -1 -1 -1 5 1601 28 774")
+        (Scroll "0 260")
+        (Zoom "100"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
       (Schematic "EILENS")
-      (Page "MCU")))
+      (Page "DC1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1601 28 774")
+        (Scroll "-286 -6")
+        (Zoom "60"))
+      (Path
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
+      (Schematic "EILENS")
+      (Page "MAIN"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1601 28 774")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
+      (Schematic "EILENS")
+      (Page "MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1601 28 774")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
+      (Schematic "EILENS")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1601 28 774")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
+      (Schematic "HVPULSE")
+      (Page "MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1601 28 774")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
+      (Schematic "HVPULSE")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1601 28 774")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
+      (Schematic "HVPULSE")
+      (Page "MAIN")))
   (MPSSessionName "WWH")
   (LastUsedLibraryBrowseDirectory
      "C:\Users\WWH\Desktop\Teaching_Mass_Spectrometry\01SCH"))

@@ -1,4 +1,4 @@
-Date and Time : 02/08/25 10:09:32
+Date and Time : 05/06/25 09:47:07
 
 --------------------------------------------------
 Checking Schematic: EILENS
@@ -6,20 +6,38 @@ Checking Schematic: EILENS
 Checking Electrical Rules 
 
 Checking For Single Node Nets
-WARNING(ORCAP-1600): Net has fewer than two connections DAC_3 
-                    EILENS, MCU  (99.06, 246.38) 
 WARNING(ORCAP-1600): Net has fewer than two connections DAC_2 
-                    EILENS, MCU  (111.76, 248.92) 
-WARNING(ORCAP-1600): Net has fewer than two connections DAC_4 
-                    EILENS, MCU  (99.06, 243.84) 
+                    EILENS, MCU  (99.06, 246.38) 
 WARNING(ORCAP-1600): Net has fewer than two connections DAC_1 
-                    EILENS, MCU  (111.76, 251.46) 
+                    EILENS, MCU  (111.76, 248.92) 
+WARNING(ORCAP-1600): Net has fewer than two connections DAC_3 
+                    EILENS, MCU  (99.06, 243.84) 
+WARNING(ORCAP-1600): Net has fewer than two connections DAC1 
+                    EILENS, POWER  (132.08, 129.54) 
+WARNING(ORCAP-1600): Net has fewer than two connections +12V 
+                    EILENS, MAIN  (99.06, 88.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections -12V 
+                    EILENS, MAIN  (99.06, 109.22) 
+WARNING(ORCAP-1600): Net has fewer than two connections DC_IN_1 
+                    EILENS, DC1  (127.00, 182.88) 
+WARNING(ORCAP-1600): Net has fewer than two connections DC_IN_2 
+                    EILENS, DC2  (127.00, 182.88) 
 WARNING(ORCAP-1600): Net has fewer than two connections +HV1 
                     HVPULSE, MAIN  (337.82, 17.78) 
 WARNING(ORCAP-1600): Net has fewer than two connections +HV2 
                     HVPULSE, MAIN  (340.36, 165.10) 
 
 Checking For Unconnected Bus Nets
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector V+ 
+                    EILENS, MAIN  (193.04, 205.74) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector +12V 
+                    EILENS, MAIN  (99.06, 88.90) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector -12V 
+                    EILENS, MAIN  (99.06, 109.22) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector V- 
+                    EILENS, MAIN  (142.24, 200.66) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector EE 
+                    EILENS, MAIN  (149.86, 119.38) 
 
 --------------------------------------------------
 Checking Schematic: HVPULSE
@@ -27,16 +45,49 @@ Checking Schematic: HVPULSE
 Checking Electrical Rules 
 
 Checking For Single Node Nets
-WARNING(ORCAP-1600): Net has fewer than two connections DAC_3 
-                    HVPULSE, MCU  (81.28, 236.22) 
-WARNING(ORCAP-1600): Net has fewer than two connections DAC_4 
-                    HVPULSE, MCU  (81.28, 233.68) 
+WARNING(ORCAP-1600): Net has fewer than two connections DAC_0 
+                    HVPULSE, MCU  (93.98, 241.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections DAC_1 
+                    HVPULSE, MCU  (93.98, 238.76) 
 WARNING(ORCAP-1600): Net has fewer than two connections +HV1 
                     HVPULSE, MAIN  (337.82, 17.78) 
 WARNING(ORCAP-1600): Net has fewer than two connections +HV2 
                     HVPULSE, MAIN  (340.36, 165.10) 
 
 Checking For Unconnected Bus Nets
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector V+ 
+                    EILENS, MAIN  (193.04, 205.74) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector +12V 
+                    EILENS, MAIN  (99.06, 88.90) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector -12V 
+                    EILENS, MAIN  (99.06, 109.22) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector V- 
+                    EILENS, MAIN  (142.24, 200.66) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector EE 
+                    EILENS, MAIN  (149.86, 119.38) 
+
+--------------------------------------------------
+Checking Schematic: CTRL
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections +HV1 
+                    HVPULSE, MAIN  (337.82, 17.78) 
+WARNING(ORCAP-1600): Net has fewer than two connections +HV2 
+                    HVPULSE, MAIN  (340.36, 165.10) 
+
+Checking For Unconnected Bus Nets
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector V+ 
+                    EILENS, MAIN  (193.04, 205.74) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector +12V 
+                    EILENS, MAIN  (99.06, 88.90) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector -12V 
+                    EILENS, MAIN  (99.06, 109.22) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector V- 
+                    EILENS, MAIN  (142.24, 200.66) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector EE 
+                    EILENS, MAIN  (149.86, 119.38) 
 
 Checking Physical Rules 
 
@@ -50,10 +101,80 @@ Checking Schematic: EILENS
 INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
 
 Report for Invalid References
+ERROR(ORCAP-1621): This reference has already been assigned to a different package type. L3 
+                    EILENS, POWER  (190.50, 76.20) 
+ERROR(ORCAP-1621): This reference has already been assigned to a different package type. L2 
+                    EILENS, POWER  (228.60, 20.32) 
+ERROR(ORCAP-1621): This reference has already been assigned to a different package type. L6 
+                    EILENS, POWER  (208.28, 200.66) 
+ERROR(ORCAP-1621): This reference has already been assigned to a different package type. U28 
+                    EILENS, POWER  (139.70, 20.32) 
+ERROR(ORCAP-1621): This reference has already been assigned to a different package type. U26 
+                    EILENS, MAIN  (187.96, 187.96) 
 ERROR(ORCAP-1621): This reference has already been assigned to a different package type. U24 
-                    EILENS, MAIN  (109.22, 111.76) 
+                    EILENS, MAIN  (88.90, 91.44) 
+ERROR(ORCAP-1621): This reference has already been assigned to a different package type. U27 
+                    EILENS, MAIN  (238.76, 185.42) 
+ERROR(ORCAP-1621): This reference has already been assigned to a different package type. U25 
+                    EILENS, MAIN  (231.14, 99.06) 
 
 Report for Duplicate References
+ERROR(ORCAP-1631): Duplicate reference R62 
+                    EILENS, DC2  (160.02, 149.86) 
+ERROR(ORCAP-1631): Duplicate reference C130 
+                    EILENS, DC2  (266.70, 137.16) 
+ERROR(ORCAP-1631): Duplicate reference R66 
+                    EILENS, DC2  (231.14, 99.06) 
+ERROR(ORCAP-1631): Duplicate reference R65 
+                    EILENS, DC2  (220.98, 208.28) 
+ERROR(ORCAP-1631): Duplicate reference U32 
+                    EILENS, DC2  (213.36, 109.22) 
+ERROR(ORCAP-1631): Duplicate reference R76 
+                    EILENS, DC2  (312.42, 127.00) 
+ERROR(ORCAP-1631): Duplicate reference U33 
+                    EILENS, DC2  (203.20, 218.44) 
+ERROR(ORCAP-1631): Duplicate reference R68 
+                    EILENS, DC2  (243.84, 127.00) 
+ERROR(ORCAP-1631): Duplicate reference C131 
+                    EILENS, DC2  (325.12, 137.16) 
+ERROR(ORCAP-1631): Duplicate reference R70 
+                    EILENS, DC2  (180.34, 180.34) 
+ERROR(ORCAP-1631): Duplicate reference D11 
+                    EILENS, DC2  (180.34, 205.74) 
+ERROR(ORCAP-1631): Duplicate reference U12 
+                    EILENS, DC2  (228.60, 86.36) 
+ERROR(ORCAP-1631): Duplicate reference R74 
+                    EILENS, DC2  (276.86, 127.00) 
+ERROR(ORCAP-1631): Duplicate reference U34 
+                    EILENS, DC2  (228.60, 193.04) 
+ERROR(ORCAP-1631): Duplicate reference R71 
+                    EILENS, DC2  (180.34, 165.10) 
+ERROR(ORCAP-1631): Duplicate reference R67 
+                    EILENS, DC2  (121.92, 137.16) 
+ERROR(ORCAP-1631): Duplicate reference R72 
+                    EILENS, DC2  (182.88, 60.96) 
+ERROR(ORCAP-1631): Duplicate reference R63 
+                    EILENS, DC2  (160.02, 165.10) 
+ERROR(ORCAP-1631): Duplicate reference R61 
+                    EILENS, DC2  (160.02, 198.12) 
+ERROR(ORCAP-1631): Duplicate reference C129 
+                    EILENS, DC2  (134.62, 152.40) 
+ERROR(ORCAP-1631): Duplicate reference R60 
+                    EILENS, DC2  (160.02, 182.88) 
+ERROR(ORCAP-1631): Duplicate reference C57 
+                    EILENS, DC2  (127.00, 127.00) 
+ERROR(ORCAP-1631): Duplicate reference D10 
+                    EILENS, DC2  (182.88, 96.52) 
+ERROR(ORCAP-1631): Duplicate reference U31 
+                    EILENS, DC2  (132.08, 175.26) 
+ERROR(ORCAP-1631): Duplicate reference R69 
+                    EILENS, DC2  (104.14, 137.16) 
+ERROR(ORCAP-1631): Duplicate reference R75 
+                    EILENS, DC2  (294.64, 127.00) 
+ERROR(ORCAP-1631): Duplicate reference R73 
+                    EILENS, DC2  (182.88, 76.20) 
+ERROR(ORCAP-1631): Duplicate reference R64 
+                    EILENS, DC2  (231.14, 208.28) 
 
 --------------------------------------------------
 Checking Schematic: HVPULSE
@@ -62,70 +183,130 @@ Checking Schematic: HVPULSE
 INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
 
 Report for Invalid References
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. C57 
+                    HVPULSE, MAIN  (355.60, 175.26) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. U25 
+                    HVPULSE, MAIN  (71.12, 215.90) 
 ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. U24 
                     HVPULSE, MAIN  (78.74, 58.42) 
 ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. R1 
-                    HVPULSE, MAIN  (241.30, 91.44) 
+                    HVPULSE, MAIN  (238.76, 93.98) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. L3 
+                    HVPULSE, POWER  (71.12, 104.14) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. L4 
+                    HVPULSE, POWER  (38.10, 111.76) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. L2 
+                    HVPULSE, POWER  (71.12, 43.18) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. L1 
+                    HVPULSE, POWER  (38.10, 50.80) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. U28 
+                    HVPULSE, POWER  (152.40, 251.46) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. L7 
+                    HVPULSE, POWER  (38.10, 165.10) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. L6 
+                    HVPULSE, POWER  (71.12, 157.48) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. U26 
+                    HVPULSE, POWER  (43.18, 223.52) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. L8 
+                    HVPULSE, POWER  (167.64, 152.40) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. U27 
+                    HVPULSE, POWER  (152.40, 195.58) 
 
 Report for Duplicate References
+ERROR(ORCAP-1631): Duplicate reference C57 
+                    HVPULSE, MAIN  (355.60, 175.26) 
+ERROR(ORCAP-1631): Duplicate reference U25 
+                    HVPULSE, MAIN  (71.12, 215.90) 
 ERROR(ORCAP-1631): Duplicate reference C53 
                     HVPULSE, MAIN  (210.82, 106.68) 
 ERROR(ORCAP-1631): Duplicate reference U24 
                     HVPULSE, MAIN  (78.74, 58.42) 
+ERROR(ORCAP-1631): Duplicate reference U12 
+                    HVPULSE, MAIN  (332.74, 60.96) 
 ERROR(ORCAP-1631): Duplicate reference R1 
-                    HVPULSE, MAIN  (241.30, 91.44) 
+                    HVPULSE, MAIN  (238.76, 93.98) 
+ERROR(ORCAP-1631): Duplicate reference L3 
+                    HVPULSE, POWER  (71.12, 104.14) 
+ERROR(ORCAP-1631): Duplicate reference L4 
+                    HVPULSE, POWER  (38.10, 111.76) 
+ERROR(ORCAP-1631): Duplicate reference L2 
+                    HVPULSE, POWER  (71.12, 43.18) 
+ERROR(ORCAP-1631): Duplicate reference L1 
+                    HVPULSE, POWER  (38.10, 50.80) 
+ERROR(ORCAP-1631): Duplicate reference U28 
+                    HVPULSE, POWER  (152.40, 251.46) 
+ERROR(ORCAP-1631): Duplicate reference L7 
+                    HVPULSE, POWER  (38.10, 165.10) 
+ERROR(ORCAP-1631): Duplicate reference L6 
+                    HVPULSE, POWER  (71.12, 157.48) 
+ERROR(ORCAP-1631): Duplicate reference U26 
+                    HVPULSE, POWER  (43.18, 223.52) 
+ERROR(ORCAP-1631): Duplicate reference L8 
+                    HVPULSE, POWER  (167.64, 152.40) 
+ERROR(ORCAP-1631): Duplicate reference U27 
+                    HVPULSE, POWER  (152.40, 195.58) 
+ERROR(ORCAP-1631): Duplicate reference R28 
+                    HVPULSE, MCU  (248.92, 50.80) 
 ERROR(ORCAP-1631): Duplicate reference H1 
                     HVPULSE, MCU  (233.68, 119.38) 
-ERROR(ORCAP-1631): Duplicate reference C78 
-                    HVPULSE, MCU  (309.88, 119.38) 
-ERROR(ORCAP-1631): Duplicate reference C86 
-                    HVPULSE, MCU  (162.56, 127.00) 
-ERROR(ORCAP-1631): Duplicate reference H2 
-                    HVPULSE, MCU  (238.76, 119.38) 
-ERROR(ORCAP-1631): Duplicate reference C85 
-                    HVPULSE, MCU  (147.32, 127.00) 
-ERROR(ORCAP-1631): Duplicate reference C77 
-                    HVPULSE, MCU  (337.82, 68.58) 
-ERROR(ORCAP-1631): Duplicate reference C84 
-                    HVPULSE, MCU  (132.08, 127.00) 
-ERROR(ORCAP-1631): Duplicate reference SW1 
-                    HVPULSE, MCU  (317.50, 68.58) 
+ERROR(ORCAP-1631): Duplicate reference X1 
+                    HVPULSE, MCU  (55.88, 25.40) 
 ERROR(ORCAP-1631): Duplicate reference C83 
                     HVPULSE, MCU  (116.84, 127.00) 
-ERROR(ORCAP-1631): Duplicate reference D6 
-                    HVPULSE, MCU  (248.92, 68.58) 
-ERROR(ORCAP-1631): Duplicate reference C87 
-                    HVPULSE, MCU  (12.70, 238.76) 
+ERROR(ORCAP-1631): Duplicate reference H2 
+                    HVPULSE, MCU  (238.76, 119.38) 
+ERROR(ORCAP-1631): Duplicate reference C80 
+                    HVPULSE, MCU  (33.02, 27.94) 
+ERROR(ORCAP-1631): Duplicate reference C84 
+                    HVPULSE, MCU  (132.08, 127.00) 
+ERROR(ORCAP-1631): Duplicate reference C78 
+                    HVPULSE, MCU  (309.88, 119.38) 
+ERROR(ORCAP-1631): Duplicate reference C81 
+                    HVPULSE, MCU  (45.72, 55.88) 
 ERROR(ORCAP-1631): Duplicate reference D5 
                     HVPULSE, MCU  (223.52, 68.58) 
-ERROR(ORCAP-1631): Duplicate reference R31 
-                    HVPULSE, MCU  (215.90, 121.92) 
+ERROR(ORCAP-1631): Duplicate reference C85 
+                    HVPULSE, MCU  (147.32, 127.00) 
+ERROR(ORCAP-1631): Duplicate reference U23 
+                    HVPULSE, MCU  (48.26, 228.60) 
 ERROR(ORCAP-1631): Duplicate reference C79 
                     HVPULSE, MCU  (78.74, 30.48) 
 ERROR(ORCAP-1631): Duplicate reference C82 
                     HVPULSE, MCU  (76.20, 55.88) 
-ERROR(ORCAP-1631): Duplicate reference C81 
-                    HVPULSE, MCU  (45.72, 55.88) 
-ERROR(ORCAP-1631): Duplicate reference H3 
-                    HVPULSE, MCU  (325.12, 114.30) 
-ERROR(ORCAP-1631): Duplicate reference C80 
-                    HVPULSE, MCU  (33.02, 27.94) 
-ERROR(ORCAP-1631): Duplicate reference X1 
-                    HVPULSE, MCU  (55.88, 25.40) 
-ERROR(ORCAP-1631): Duplicate reference U23 
-                    HVPULSE, MCU  (48.26, 228.60) 
-ERROR(ORCAP-1631): Duplicate reference OSC1 
-                    HVPULSE, MCU  (43.18, 93.98) 
-ERROR(ORCAP-1631): Duplicate reference R32 
-                    HVPULSE, MCU  (254.00, 121.92) 
-ERROR(ORCAP-1631): Duplicate reference R28 
-                    HVPULSE, MCU  (248.92, 50.80) 
-ERROR(ORCAP-1631): Duplicate reference R29 
-                    HVPULSE, MCU  (223.52, 50.80) 
+ERROR(ORCAP-1631): Duplicate reference D6 
+                    HVPULSE, MCU  (248.92, 68.58) 
+ERROR(ORCAP-1631): Duplicate reference R31 
+                    HVPULSE, MCU  (215.90, 121.92) 
 ERROR(ORCAP-1631): Duplicate reference R30 
                     HVPULSE, MCU  (337.82, 45.72) 
+ERROR(ORCAP-1631): Duplicate reference C86 
+                    HVPULSE, MCU  (162.56, 127.00) 
+ERROR(ORCAP-1631): Duplicate reference SW1 
+                    HVPULSE, MCU  (317.50, 68.58) 
+ERROR(ORCAP-1631): Duplicate reference OSC1 
+                    HVPULSE, MCU  (43.18, 93.98) 
+ERROR(ORCAP-1631): Duplicate reference H3 
+                    HVPULSE, MCU  (325.12, 114.30) 
+ERROR(ORCAP-1631): Duplicate reference R29 
+                    HVPULSE, MCU  (223.52, 50.80) 
+ERROR(ORCAP-1631): Duplicate reference R32 
+                    HVPULSE, MCU  (254.00, 121.92) 
+ERROR(ORCAP-1631): Duplicate reference C77 
+                    HVPULSE, MCU  (337.82, 68.58) 
+ERROR(ORCAP-1631): Duplicate reference C87 
+                    HVPULSE, MCU  (12.70, 238.76) 
 ERROR(ORCAP-1631): Duplicate reference X2 
                     HVPULSE, MCU  (60.96, 48.26) 
+
+--------------------------------------------------
+Checking Schematic: CTRL
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
 
 --------------------------------------------------
 Checking Entire Design: TMS_BOARD 

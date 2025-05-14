@@ -1,18 +1,13 @@
-\t (00:00:01) allegro 17.4 S039 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Wed Dec 18 14:21:19 2024
-\t (00:00:01)         Host=DESKTOP-SVMQVNV User=WWH Pid=12268 CPUs=12
-\t (00:00:01) CmdLine= c:\software\cadence\spb_17.4\tools\bin\allegro.exe -mpssession WWH -proj C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.opj C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\02pcb\tms_board.brd
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-   (00:00:02) Loading skillExt.cxt 
-\t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "tms_board"
-\d (00:00:03) Design opened: C:/USERS/WWH/DESKTOP/TEACHING_MASS_SPECTROMETRY/02pcb/tms_board.brd
-\i (00:00:04) trapsize 1058
-\i (00:00:04) trapsize 1086
-\i (00:00:04) trapsize 941
-\i (00:00:04) trapsize 941
-\t (00:00:04) > Sending response DoneOpenBoard
-\i (00:00:04) generaledit 
-\i (00:00:04) exit 
-\t (00:00:05)     Journal end - Wed Dec 18 14:21:23 2024
+\t (00:00:11) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:11)     Journal start - Wed May  7 15:04:40 2025
+\t (00:00:11)         Host=DESKTOP-SVMQVNV User=WWH Pid=17436 CPUs=12
+\t (00:00:11) CmdLine= C:\Software\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:11) 
+\d (00:00:11) Design opened: C:/Users/WWH/Desktop/teaching_mass_spectrometry/02PCB/tms_board.brd
+\i (00:00:11) generaledit 
+\i (00:00:14) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:00:14) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "tms_board"
+\i (00:00:15) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:00:16) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "tms_board"
+\i (00:00:18) exit 
+\t (00:00:18)     Journal end - Wed May  7 15:04:47 2025

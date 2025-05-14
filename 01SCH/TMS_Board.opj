@@ -1,6 +1,6 @@
 (ExpressProject "TMS_Board"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[05/06/25]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[05/14/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -72,7 +72,23 @@
     (DRC_Report_File
        "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DRC")
     (RootChangedForceReNetlist "x")
-    (Board_sim_option "VHDL_flow"))
+    (Board_sim_option "VHDL_flow")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
   (Folder "Layout"
     (File "..\02pcb\tms_board.brd"
       (Type "Board File")
@@ -113,6 +129,66 @@
       (Type "Log File")
       (LogFile "c:\users\wwh\desktop\teaching_mass_spectrometry\02pcb\eco.txt")))
   (PartMRUSelector
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("MOSFET N"
+      (FullPartName "MOSFET N.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (ME2N7002D2-VB
+      (FullPartName "ME2N7002D2-VB_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\5666.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SN74AHC1G08DBVRE4
+      (FullPartName "SN74AHC1G08DBVRE4_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\26807.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("MOSFET P"
+      (FullPartName "MOSFET P.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SUM110P04-05-E3
+      (FullPartName "SUM110P04-05-E3_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\18024.OLB")
+      (DeviceIndex "0"))
+    ("DIODE BREAKDOWN"
+      (FullPartName "DIODE BREAKDOWN.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SMBJ30AHR5G
+      (FullPartName "SMBJ30AHR5G_0.Normal")
+      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\4243.OLB")
+      (DeviceIndex "0"))
     (DW-SA121-4F6B
       (FullPartName "DW-SA121-4F6B.Normal")
       (LibraryName
@@ -167,71 +243,14 @@
       (FullPartName "CAPACITOR POL.Normal")
       (LibraryName
          "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CAP
-      (FullPartName "CAP.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (TMA2415D
-      (FullPartName "TMA2415D_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\32158.OLB")
-      (DeviceIndex "0"))
-    (LED
-      (FullPartName "LED.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-R
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (TIP137
-      (FullPartName "TIP137_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\20847.OLB")
-      (DeviceIndex "0"))
-    (INDUCTOR
-      (FullPartName "INDUCTOR.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (TRAN_HM31
-      (FullPartName "TRAN_HM31.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (TRANSFORMER
-      (FullPartName "TRANSFORMER.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (XRUU9.8-5MH-V
-      (FullPartName "XRUU9.8-5MH-V_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\27778.OLB")
-      (DeviceIndex "0"))
-    ("CAP POL"
-      (FullPartName "CAP POL.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("CAP NP"
-      (FullPartName "CAP NP.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (1206B102K102NT_C1941
-      (FullPartName "1206B102K102NT_C1941_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\21839.OLB")
-      (DeviceIndex "0"))
-    (TEN25-2411
-      (FullPartName "TEN25-2411_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\16150.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\tms_board.dsn")
       (Path "Design Resources" ".\tms_board.dsn" "HVPULSE")
+      (Path "Design Resources" ".\tms_board.dsn" "CTRL")
+      (Path "Design Resources" ".\tms_board.dsn" "EILENS")
       (Path "Design Resources" "Library")
       (Path "Layout")
       (Path "Outputs")
@@ -241,14 +260,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 287 0 639"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 615"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1587 28 661")
-        (Scroll "-229 0")
-        (Zoom "66")
+        (Placement "44 0 1 -1 -1 5 28 5 1351 28 661")
+        (Scroll "-235 -2")
+        (Zoom "51")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
@@ -257,14 +276,25 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1587 28 661")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1351 28 661")
+        (Scroll "0 215")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
       (Schematic "HVPULSE")
-      (Page "MCU")))
+      (Page "MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1351 28 661")
+        (Scroll "222 302")
+        (Zoom "204")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
+      (Schematic "HVPULSE")
+      (Page "POWER")))
   (MPSSessionName "WWH")
   (LastUsedLibraryBrowseDirectory
      "C:\Users\WWH\Desktop\Teaching_Mass_Spectrometry\01SCH"))

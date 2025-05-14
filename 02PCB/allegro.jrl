@@ -1,13 +1,13 @@
 \t (00:00:01) allegro 17.4 S039 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Mon Dec 23 10:06:17 2024
-\t (00:00:01)         Host=DESKTOP-SVMQVNV User=WWH Pid=15744 CPUs=12
+\t (00:00:01)     Journal start - Wed May  7 15:05:14 2025
+\t (00:00:01)         Host=DESKTOP-SVMQVNV User=WWH Pid=11508 CPUs=12
 \t (00:00:01) CmdLine= C:\Software\Cadence\SPB_17.4\tools\bin\allegro.exe
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
-   (00:00:02) Loading skillExt.cxt 
+   (00:00:01) Loading skillExt.cxt 
 \t (00:00:02) Starting new design...
-\i (00:00:03) trapsize 116667
-\i (00:00:03) generaledit 
-\i (00:00:25) new 
-\i (00:00:41) newdrawfillin "SnakePCB.brd" "Board"
-\t (00:00:41)     Journal end - Mon Dec 23 10:06:57 2024
+\i (00:00:02) trapsize 116667
+\i (00:00:02) generaledit 
+\i (00:00:04) new 
+\i (00:00:22) newdrawfillin "TP1_0MM.dra" "Package Symbol"
+\t (00:00:22)     Journal end - Wed May  7 15:05:35 2025

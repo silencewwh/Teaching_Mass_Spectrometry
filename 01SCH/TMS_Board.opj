@@ -1,6 +1,6 @@
 (ExpressProject "TMS_Board"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[05/14/25]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[06/03/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -129,13 +129,85 @@
       (Type "Log File")
       (LogFile "c:\users\wwh\desktop\teaching_mass_spectrometry\02pcb\eco.txt")))
   (PartMRUSelector
-    (DIODE
-      (FullPartName "DIODE.Normal")
+    (VCC_BAR
       (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R-RJ45R10P-B000
+      (FullPartName "R-RJ45R10P-B000_0.Normal")
+      (LibraryName
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\5484.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (URB2424S-6WR3G
+      (FullPartName "URB2424S-6WR3G_0.Normal")
+      (LibraryName
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\28674.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (BC847BL
+      (FullPartName "BC847BL.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (DB15
+      (FullPartName "DB15.Normal")
+      (LibraryName
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (D-SUB-DR-15PCM-CB
+      (FullPartName "D-SUB-DR-15PCM-CB_0.Normal")
+      (LibraryName
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\30575.OLB")
+      (DeviceIndex "0"))
+    (LM358
+      (FullPartName "LM358.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
+      (DeviceIndex "1"))
+    ("5.8 ZSGT"
+      (FullPartName "5.8 ZSGT_0.Normal")
+      (LibraryName
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\28474.OLB")
+      (DeviceIndex "0"))
+    (5557-2*2AW
+      (FullPartName "5557-2*2AW_0.Normal")
+      (LibraryName
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\7771.OLB")
+      (DeviceIndex "0"))
+    (TLP521GB-S
+      (FullPartName "TLP521GB-S_0.Normal")
+      (LibraryName
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\31358.OLB")
+      (DeviceIndex "0"))
+    (HX63080-4AN
+      (FullPartName "HX63080-4AN_0.Normal")
+      (LibraryName
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\7352.OLB")
+      (DeviceIndex "0"))
+    (3296W-1-254LF
+      (FullPartName "3296W-1-254LF_0.Normal")
+      (LibraryName
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\32712.OLB")
       (DeviceIndex "0"))
     ("CAP NP"
       (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DW-P102-5FP1
+      (FullPartName "DW-P102-5FP1.Normal")
+      (LibraryName
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
       (LibraryName
          "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
@@ -158,10 +230,6 @@
       (FullPartName "ME2N7002D2-VB_0.Normal")
       (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\5666.OLB")
       (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (SN74AHC1G08DBVRE4
       (FullPartName "SN74AHC1G08DBVRE4_0.Normal")
       (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\26807.OLB")
@@ -179,122 +247,90 @@
     (SUM110P04-05-E3
       (FullPartName "SUM110P04-05-E3_0.Normal")
       (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\18024.OLB")
-      (DeviceIndex "0"))
-    ("DIODE BREAKDOWN"
-      (FullPartName "DIODE BREAKDOWN.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (SMBJ30AHR5G
-      (FullPartName "SMBJ30AHR5G_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\4243.OLB")
-      (DeviceIndex "0"))
-    (DW-SA121-4F6B
-      (FullPartName "DW-SA121-4F6B.Normal")
-      (LibraryName
-         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    ("DIODE SCHOTTKY"
-      (FullPartName "DIODE SCHOTTKY.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    ("OPTO ISOLATOR-A"
-      (FullPartName "OPTO ISOLATOR-A.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (EL357C
-      (FullPartName "EL357C_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\9306.OLB")
-      (DeviceIndex "0"))
-    ("PHOTO NPN"
-      (FullPartName "PHOTO NPN.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (EL357C_C17702878
-      (FullPartName "EL357C_C17702878_0.Normal")
-      (LibraryName "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\293.OLB")
-      (DeviceIndex "0"))
-    (RESISTOR
-      (FullPartName "RESISTOR.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (DW-N121-4F65
-      (FullPartName "DW-N121-4F65.Normal")
-      (LibraryName
-         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (GND_SIGNAL
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    ("CAPACITOR POL"
-      (FullPartName "CAPACITOR POL.Normal")
-      (LibraryName
-         "C:\SOFTWARE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\tms_board.dsn")
-      (Path "Design Resources" ".\tms_board.dsn" "HVPULSE")
-      (Path "Design Resources" ".\tms_board.dsn" "CTRL")
-      (Path "Design Resources" ".\tms_board.dsn" "EILENS")
+      (Path "Design Resources"
+         "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn")
+      (Path "Design Resources"
+         "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"
+         "CTRL")
+      (Path "Design Resources"
+         "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"
+         "EILENS")
+      (Path "Design Resources"
+         "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"
+         "HVPULSE")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\library1.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\tms_board.dsn" "HVPULSE" "MAIN"))
+      (Select "Design Resources"
+         "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"
+         "HVPULSE" "MCU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 615"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 300 0 808"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1351 28 661")
-        (Scroll "-235 -2")
-        (Zoom "51")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1574 28 830")
+        (Scroll "360 502")
+        (Zoom "130")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
-      (Schematic "HVPULSE")
-      (Page "MAIN"))
+      (Schematic "CTRL")
+      (Page "GAUGE"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1351 28 661")
-        (Scroll "0 215")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1574 28 830")
+        (Scroll "-231 -5")
+        (Zoom "65")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
-      (Schematic "HVPULSE")
+      (Schematic "CTRL")
       (Page "MCU"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1351 28 661")
-        (Scroll "222 302")
-        (Zoom "204")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1574 28 830")
+        (Scroll "-231 -5")
+        (Zoom "65")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
+      (Schematic "CTRL")
+      (Page "PRE_PUMP"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1574 28 830")
+        (Scroll "0 107")
+        (Zoom "130")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
+      (Schematic "CTRL")
+      (Page "VACC_PUMP"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1574 28 830")
+        (Scroll "405 642")
+        (Zoom "130"))
+      (Path
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
       (Schematic "HVPULSE")
-      (Page "POWER")))
+      (Page "MCU")))
   (MPSSessionName "WWH")
   (LastUsedLibraryBrowseDirectory
      "C:\Users\WWH\Desktop\Teaching_Mass_Spectrometry\01SCH"))

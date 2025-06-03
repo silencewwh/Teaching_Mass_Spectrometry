@@ -1,0 +1,72 @@
+
+
+
+
+C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD-DRCS-Report.csv
+
+
+
+
+
+Total number of: DRCS for: '*' [ in , Mode: Occ, MatchCase: No, DESIGN: C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN ] : 54
+
+
+
+
+
+Severity,DRC Type,Description,Detail,Location,Page,Schematic,Waived
+
+Warning,Electrical,WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog.,U5,VCC VCC  24V_PREM,CTRL, PRE_PUMP  (63.50, 233.68),PRE_PUMP,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog.,U5,VCC VCC  24V_PREM,CTRL, PRE_PUMP  (147.32, 205.74),PRE_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,C46,CTRL, MCU  (149.86, 137.16),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,R89,CTRL, MCU  (266.70, 60.96),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,R91,CTRL, MCU  (271.78, 132.08),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,H1,CTRL, MCU  (251.46, 129.54),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,H3,CTRL, MCU  (342.90, 124.46),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,R87,CTRL, MCU  (355.60, 55.88),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,D13,CTRL, MCU  (241.30, 78.74),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,C47,CTRL, MCU  (165.10, 137.16),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,X1,CTRL, MCU  (73.66, 35.56),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,R90,CTRL, MCU  (233.68, 132.08),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,OSC1,CTRL, MCU  (60.96, 104.14),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,X2,CTRL, MCU  (78.74, 58.42),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,C39,CTRL, MCU  (50.80, 38.10),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,C41,CTRL, MCU  (63.50, 66.04),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,H2,CTRL, MCU  (256.54, 129.54),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,C43,CTRL, MCU  (355.60, 78.74),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,C45,CTRL, MCU  (134.62, 137.16),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,U23,CTRL, MCU  (66.04, 238.76),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,D14,CTRL, MCU  (266.70, 78.74),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,C48,CTRL, MCU  (180.34, 137.16),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,SW3,CTRL, MCU  (335.28, 78.74),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,R88,CTRL, MCU  (241.30, 60.96),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,C42,CTRL, MCU  (93.98, 66.04),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,C44,CTRL, MCU  (327.66, 129.54),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,C40,CTRL, MCU  (96.52, 40.64),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,C49,CTRL, MCU  (30.48, 246.38),MCU,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,R31,CTRL, VACC_PUMP  (119.38, 152.40),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,Q7,CTRL, VACC_PUMP  (139.70, 177.80),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,U9,CTRL, VACC_PUMP  (152.40, 160.02),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,R29,CTRL, VACC_PUMP  (88.90, 177.80),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,R30,CTRL, VACC_PUMP  (88.90, 121.92),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,R32,CTRL, VACC_PUMP  (142.24, 137.16),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1631): Duplicate reference,Q6,CTRL, VACC_PUMP  (139.70, 152.40),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints.,R31,CTRL, VACC_PUMP  (119.38, 152.40),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints.,Q7,CTRL, VACC_PUMP  (139.70, 177.80),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints.,U9,CTRL, VACC_PUMP  (152.40, 160.02),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints.,R29,CTRL, VACC_PUMP  (88.90, 177.80),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints.,R30,CTRL, VACC_PUMP  (88.90, 121.92),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints.,R32,CTRL, VACC_PUMP  (142.24, 137.16),VACC_PUMP,CTRL\,No
+Error,Electrical,ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints.,Q6,CTRL, VACC_PUMP  (139.70, 152.40),VACC_PUMP,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1600): Net has fewer than two connections,3.3V,CTRL, PRE_PUMP  (259.08, 68.58),PRE_PUMP,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1600): Net has fewer than two connections,PREP_CTRL,CTRL, PRE_PUMP  (81.28, 274.32),PRE_PUMP,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1600): Net has fewer than two connections,PREPUMP_ON,CTRL, PRE_PUMP  (27.94, 81.28),PRE_PUMP,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1600): Net has fewer than two connections,MSPEED_VACCPUMP,CTRL, PRE_PUMP  (25.40, 231.14),PRE_PUMP,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1600): Net has fewer than two connections,3V3_2,CTRL, MCU  (182.88, 134.62),MCU,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1600): Net has fewer than two connections,DAC_3,CTRL, MCU  (99.06, 243.84),MCU,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1600): Net has fewer than two connections,DAC_1,CTRL, MCU  (111.76, 248.92),MCU,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1600): Net has fewer than two connections,DAC_0,CTRL, MCU  (111.76, 251.46),MCU,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1600): Net has fewer than two connections,DAC_2,CTRL, MCU  (99.06, 246.38),MCU,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1600): Net has fewer than two connections,VACCPUMP_ON,CTRL, VACC_PUMP  (43.18, 76.20),VACC_PUMP,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1600): Net has fewer than two connections,3.3V,CTRL, PRE_PUMP  (259.08, 68.58),PRE_PUMP,CTRL\,No
+Warning,Electrical,WARNING(ORCAP-1600): Net has fewer than two connections,3.3V,CTRL, PRE_PUMP  (259.08, 68.58),PRE_PUMP,CTRL\,No

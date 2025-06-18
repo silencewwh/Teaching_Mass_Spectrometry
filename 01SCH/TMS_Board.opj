@@ -1,6 +1,6 @@
 (ExpressProject "TMS_Board"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[06/06/25]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[06/18/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -129,6 +129,11 @@
       (Type "Log File")
       (LogFile "c:\users\wwh\desktop\teaching_mass_spectrometry\02pcb\eco.txt")))
   (PartMRUSelector
+    (B2412S-2WR3_C5712250
+      (FullPartName "B2412S-2WR3_C5712250_0.Normal")
+      (LibraryName
+         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\7678.OLB")
+      (DeviceIndex "0"))
     (LMR33630ADDAR
       (FullPartName "LMR33630ADDAR_0.Normal")
       (LibraryName
@@ -244,11 +249,6 @@
       (FullPartName "5.8 ZSGT_0.Normal")
       (LibraryName
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\28474.OLB")
-      (DeviceIndex "0"))
-    (5557-2*2AW
-      (FullPartName "5557-2*2AW_0.Normal")
-      (LibraryName
-         "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\7771.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -273,7 +273,7 @@
       (Path "Logs")
       (Select "Design Resources"
          "c:\users\wwh\desktop\teaching_mass_spectrometry\01sch\tms_board.dsn"
-         "HVPULSE" "MCU"))
+         "HVPULSE" "POWER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -283,9 +283,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1674 28 830")
-        (Scroll "502 266")
-        (Zoom "130")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 28 830")
+        (Scroll "0 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
@@ -294,25 +294,25 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1674 28 830")
-        (Scroll "-256 0")
-        (Zoom "68")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 28 830")
+        (Scroll "6 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
       (Schematic "HVPULSE")
-      (Page "POWER"))
+      (Page "MCU"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1674 28 830")
-        (Scroll "-256 0")
-        (Zoom "68")
+        (Scroll "6 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\WWH\DESKTOP\TEACHING_MASS_SPECTROMETRY\01SCH\TMS_BOARD.DSN")
       (Schematic "HVPULSE")
-      (Page "MCU")))
+      (Page "POWER")))
   (MPSSessionName "WWH")
   (LastUsedLibraryBrowseDirectory
      "C:\Users\WWH\Desktop\Teaching_Mass_Spectrometry\01SCH"))
